@@ -346,7 +346,357 @@
 			"id": 9999,
 			"details": {
 				"description": [{
+					"id": 1,
+					"dieToRoll": 10,
+					"subject": "Entrance: The cave mouth is ",
+					"predicate": [
+						"Wide and tall, letting much daylight into the entry chamber.",
+						"A wide sinkhole.",
+						"An easy to spot, narrow passage.",
+						"A steep, slippery sloped tunnel.",
+						"A man-made tunnel.",
+						"A collapsed tunnel, impassable without excavation.",
+						"Marked with several warning signs.",
+						"Hidden by ", {
+							"modifiedGallery": {
+								"type": "terrain",
+								"dieToRoll": 4,
+								"nouns": [
+									"some boulders.",
+									"a waterfall.",
+									"a rocky overhang.",
+									"a hillock."
+								]
+							}
+						},
+						"Hidden by ", {
+							"modifiedGallery": {
+								"type": "vegetation",
+								"dieToRoll": 4,
+								"nouns": [
+									"a briar patch.",
+									"a curtain of moss.",
+									"enormous tree roots.",
+									"overgrown vines."
+								]
+							}
+						},
+						"Only accessible ", {
+							"modifiedGallery": {
+								"type": "vegetation",
+								"dieToRoll": 4,
+								"nouns": [
+									"up or down a cliff face.",
+									"down a deep hole.",
+									"in an underwater tunnel.",
+									"through an illusory rock or wall."
+								]
+							}
+						}
+					]
+				},{
+					"id": 2,
+					"dieToRoll": 50,
+					"subject": "What lives in the cave?",
+					"predicate": [
+						"Bullywug.",
+						"Carrion crawler.",
+						"Chuul.",
+						"Cloaker.",
+						"Crawling claw.",
+						"Cyclops.",
+						"Darkmantle.",
+						"Shadow dragon.",
+						"Drider.",
+						"Duergar.",
+						"Elves, dark.",
+						"Ettin.",
+						"Fomorian.",
+						"Fungi.",
+						"Galeb duhr.",
+						"Gargoyle.",
+						"Ghost.",
+						"Ghoul.",
+						"Giant, hill.",
+						"Giant, stone.",
+						"Gibbering mouther.",
+						"Goblins.",
+						"Grell.",
+						"Grick.",
+						"Grimlock.",
+						"Hobgoblins.",
+						"Hook Horror.",
+						"Kobolds.",
+						"Mephits.",
+						"Mimic.",
+						"Myconids.",
+						"Ogres.",
+						"Oozes.",
+						"Orcs.",
+						"Otyugh.",
+						"Piercer.",
+						"Purple worm.",
+						"Roper.",
+						"Rust monster.",
+						"Shadow.",
+						"Skeleton.",
+						"Spectre.",
+						"Stirge.",
+						"Troglodyte.",
+						"Troll.",
+						"Umber hulk.",
+						"Wraith.",
+						"Xorn.",
+						"Yuan-ti.",
+						"Zombies."
+					]
+				},{
+					"id": 3,
+					"dieToRoll": 10,
+					"subject": "The creature is ",
+					"predicate": [
+						"A predator or a hunter.",
+						"A food source for other denizens.",
+						"A recently-arrived squatter or invader.",
+						"A long-time resident.",
+						"A parasite or a scavenger.",
+						"A host or the dominant species.",
+						"Unusually abundant.",
+						"Living in deliberate isolation.",
+						"Living in unintentional isolation.",
+						"Severely out of place in this cave."
+					]
+				},{
+					"id": 4,
+					"dieToRoll": ,
+					"subject": "You see ",
+					"predicate": [
+						"A trickle of water flowing down the walls and across the floor.",
+						"An underground lake of potable water.",
+						"A pool of stagnant water.",
+						"A natural bridge over a chasm.",
+						"A narrow chasm with walls close enough to climb between.",
+						"A deep chasm with no bottom in sight.",
+						"A shaft in the ceiling with no light coming from it.",
+						"A shaft in the ceiling with dim light coming from it.",
+						"A group of stalagmites arranged in a circle.",
+						"An arrangement of two large stalactites and two large stalagmites, reminiscent of fangs in a yawning mouth.",
+						"A pair of natural columns.",
+						"A large stalactite that has broken off from the ceiling and fallen to the floor.",
+						"An array of many small stalactites spreading across the ceiling.",
+						"A damp wall covered in soft mold.",
+						"A recess in the wall, covered in slimy mold.",
+						"A large patch of glowing fungus.",
+						"A large patch of small mushrooms.",
+						"A group of enormous mushrooms.",
+						"A large cavern with a strong echo.",
+						"A claustrophobic tunnel with a low ceiling."
+					]
+				},{
+					"id": 5,
+					"dieToRoll": 12,
+					"subject": "You notice ",
+					"predicate": [
+						"A cache of abandoned, decrepit mining equipment.",
+						"Some old dry bones.",
+						"Many bones underfoot.",
+						"Evidence of a recent encampment.",
+						"An enormous spider web.",
+						"A wide slippery patch of mold on the floor.",
+						"The clatter of rocks falling.",
+						"Loose stones underfoot.",
+						"An unstable ceiling.",
+						"A distant sound—a scream, hammers at work, footsteps, or drums.",
+						"The name of a previous traveler carved into a wall.",
+						"Several ancient runes carved into the wall."
+					]
+				},{
+					"id": 6,
+					"dieToRoll": 12,
+					"subject": "The cave wall is ",
+					"predicate": [
+						"Slightly damp.",
+						"Dripping wet.",
+						"Slick with mold.",
+						"Covered in soft fungi.",
+						"Dry as a bone.",
+						"Rough and dry.",
+						"Dry and smooth.",
+						"Jagged.",
+						"Pockmarked.",
+						"Crumbling, with loose bits flaking off.",
+						"Crumbling, with large chunks falling off at a touch.",
+						"Covered in an unidentifiable slime."
+					]
+				},{
+					"id": 7,
+					"dieToRoll": 6,
+					"subject": "The cave ceiling is ",
+					"predicate": [
+						"Uncomfortably close to your head.",
+						"Covered in stalactites (watch your head!).",
+						"Smooth as glass.",
+						"Rough and jagged.",
+						"Connected to the floor by natural columns.",
+						"So high it’s difficult to see."
+					]
+				},{
+					"id": 8,
+					"dieToRoll": ,
+					"subject": "Hazards/Obstacles: You find ",
+					"predicate": [
+						"A colony of poisonous mushrooms.",
+						"A patch of toxic mold.",
+						"The ceiling caves in.",
+						"Several rocks tumble down a sloped wall.",
+						"The floor is very slippery.",
+						"Your foot misses the floor as you step into a pit or chasm."
+					]
+				},{
+					"id": 9,
+					"dieToRoll": 12,
+					"subject": "Travelers/Visitors: You come upon ",
+					"predicate": [
+					"An explorer ", {
+							"modifiedGallery": {
+								"dieToRoll": 4,
+								"nouns": [
+									"(duergar).",
+									"(goblin).",
+									"(human).",
+									"(kobold)."
+								]
+							}
+						},
+					"An escaped slave ", {
+						"modifiedGallery": {
+							"dieToRoll": 6,
+							"nouns": [
+								"(dwarf).",
+								"(goblin).",
+								"(gnome)",
+								"(halfling)",
+								"(human).",
+								"(kobold)."
+							]
+						}
+					},
+					"A forager ", {
+							"modifiedGallery": {
+								"dieToRoll": 4,
+								"nouns": [
+									"(duergar).",
+									"(goblin).",
+									"(orc).",
+									"(kobold)."
+								]
+							}
+						},
+					"A fugitive criminal ", {
+							"modifiedGallery": {
+								"dieToRoll": 4,
+								"nouns": [
+									"(heretic).",
+									"(killer).",
+									"(smuggler).",
+									"(thief)."
+								]
+							}
+						},
+					"A lost treasure hunter ", {
+							"modifiedGallery": {
+								"dieToRoll": 4,
+								"nouns": [
+									"(dwarf).",
+									"(half-elf).",
+									"(high elf).",
+									"(human)."
+								]
+							}
+						},
+					"A mapmaker ", {
+							"modifiedGallery": {
+								"dieToRoll": 4,
+								"nouns": [
+									"(dwarf).",
+									"(goblin).",
+									"(gnome).",
+									"(svirfneblin)."
+								]
+							}
+						},
+					"A messenger ", {
+							"modifiedGallery": {
+								"dieToRoll": 4,
+								"nouns": [
+									"(dark elf).",
+									"(goblin).",
+									"(gnome).",
+									"(svirfneblin)."
+								]
+							}
+						},
+					"A miner ", {
+							"modifiedGallery": {
+								"dieToRoll": 6,
+								"nouns": [
+									"(dwarf).",
+									"(gnome).",
+									"(goblin).",
+									"(human).",
+									"(kobold)",
+									"(svirfneblin)"
+								]
+							}
+						},
+					"A prospector ", {
+							"modifiedGallery": {
+								"dieToRoll": 4,
+								"nouns": [
+									"(dwarf).",
+									"(gnome).",
+									"(human).",
+									"(svirfneblin)."
+								]
+							}
+						},
+					"A scout ", {
+							"modifiedGallery": {
+								"dieToRoll": 4,
+								"nouns": [
+									"(dark elf).",
+									"(goblin).",
+									"(kobold).",
+									"(orc)."
+								]
+							}
+						},
+					"A soldier ", {
+							"modifiedGallery": {
+								"dieToRoll": 6,
+								"nouns": [
+									"(dark elf).",
+									"(duergar).",
+									"(dwarf).",
+									"(goblin).",
+									"(kobold)",
+									"(orc)"
+								]
+							}
+						},
+					"A spy ", {
+							"modifiedGallery": {
+								"dieToRoll": 4,
+								"nouns": [
+									"(dark elf).",
+									"(duergar).",
+									"(goblin).",
+									"(kobold)."
+								]
+							}
+						},
 
+					]
 				}],
 			}
 		}, {
